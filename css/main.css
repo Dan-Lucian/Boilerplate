@@ -377,7 +377,8 @@ img {
 }
 
 /**
- * Basic typography style for copy text
+ * The CSS properties that allow you to define:
+ * the color, size, spacing, and shape of text.
  */
 body {
   color: #222222;
@@ -441,6 +442,23 @@ body {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+.box {
+  margin: 20px;
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box__box {
+  height: 100px;
+  width: 100px;
+  background-color: hotpink;
 }
 
 /*# sourceMappingURL=main.css.map */
