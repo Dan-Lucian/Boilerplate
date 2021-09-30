@@ -461,4 +461,28 @@ body {
   background-color: hotpink;
 }
 
+.pop-up-message {
+  --color-pop-up-message-bg: #000;
+  --color-pop-up-message-text: #fff;
+}
+
+.pop-up-message {
+  position: fixed;
+  z-index: 1000;
+  top: 10px;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  background: var(--color-pop-up-message-bg);
+  color: var(--color-pop-up-message-text);
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 0;
+  transition: opacity 400ms ease-in-out;
+}
+
+.pop-up-message--fade-in {
+  opacity: 1;
+}
+
 /*# sourceMappingURL=main.css.map */
